@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "proto";
+
+message Args {
+    int32 A = 1;
+    int32 B = 2;
+}
+
+message Reply {
+    int32 C = 1;
+}
